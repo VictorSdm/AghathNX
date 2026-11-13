@@ -44,6 +44,18 @@ jobs:
       - name: Set up MSVC
         uses: ilammy/msvc-dev-cmd@v1
 
+      # Fritchii is built with clang-cl (LLVM 22), not cl.exe: MSVC turns warnings in Fritchii's
+      # own code (C4459 and others) into errors.
+      - name: Install LLVM (clang-cl)
+        shell: pwsh
+        run: |
+          choco upgrade llvm -y --no-progress
+          'C:\Program Files\LLVM\bin' | Out-File -Append -Encoding utf8 $env:GITHUB_PATH
+
+      - name: Show compiler
+        shell: pwsh
+        run: clang-cl --version
+
       - name: Install Qt
         uses: jurplel/install-qt-action@v4
         with:
@@ -80,8 +92,8 @@ jobs:
         uses: actions/cache/restore@v5
         with:
           path: .sccache
-          key: objects-aghathnx-windows-${{ github.sha }}-${{ github.run_id }}
-          restore-keys: objects-aghathnx-windows-
+          key: objects-aghathnx-windows-clang-${{ github.sha }}-${{ github.run_id }}
+          restore-keys: objects-aghathnx-windows-clang-
 
       # No LICHII_BUILD_TAG: with dist/frizti_version.txt present the build is named
       # "AghathNX v<version>" (CMakeModules/GenerateSCMRev.cmake).
@@ -90,6 +102,8 @@ jobs:
         run: >-
           cmake -S . -B build/release -G Ninja
           -DCMAKE_BUILD_TYPE=Release
+          -DCMAKE_C_COMPILER=clang-cl
+          -DCMAKE_CXX_COMPILER=clang-cl
           -DBUILD_TESTING=OFF
           -DYUZU_TESTS=OFF
           -DYUZU_CMD=ON
