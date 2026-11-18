@@ -33,7 +33,7 @@ std::optional<u64> ParseBuildNumber(std::string_view tag) {
     return number;
 }
 
-constexpr std::string_view ReleaseRepo = "Frizti/Lichii";
+constexpr std::string_view ReleaseRepo = "VictorSdm/AghathNX";
 // Download URLs name the repository by its current name; GitHub redirects the old one.
 constexpr std::array RepoNames{std::string_view{"Lichii"}, std::string_view{"Fritchii"}};
 

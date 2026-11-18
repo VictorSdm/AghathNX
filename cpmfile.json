@@ -86,7 +86,8 @@
         "name": "ffmpeg",
         "package": "FFmpeg",
         "repo": "Takoroka/ffmpeg-av1",
-        "version": "9.0.2-av1-1"
+        "version": "9.0.2-av1-1",
+        "pinned_windows_amd64": "caa7b5f074de786e19ce897d4289a22a85d78a82af483fbee2c2a7a06191685b8d38b62be6ee21e67ff01e84e0241da9eb93a8a778c6c6cfc225e18f57624e68"
     },
     "fmt": {
         "hash": "f0da82c545b01692e9fd30fdfb613dbb8dd9716983dcd0ff19ac2a8d36f74beb5540ef38072fdecc1e34191b3682a8542ecbf3a61ef287dbba0a2679d4e023f2",
@@ -197,7 +198,8 @@
         "name": "openssl",
         "package": "OpenSSL",
         "repo": "crueter-ci/OpenSSL",
-        "version": "4.0.1-1788234794-b64f68a94e"
+        "version": "4.0.1-1788234794-b64f68a94e",
+        "pinned_windows_amd64": "dd9b03279cb9d801fd31c37d6d2bd3d2fa4f2160d899109ce53aebb2fa68ede78e54b04ae2423ed5a95cb766f178d21888a7c885d79f015009ef4bbff3084223"
     },
     "openssl-cmake": {
         "bundled": true,
@@ -263,7 +265,8 @@
         "name": "SDL3",
         "package": "SDL3",
         "repo": "crueter-ci/SDL3",
-        "version": "3.4.14-1788231389-147a8ee32d"
+        "version": "3.4.14-1788231389-147a8ee32d",
+        "pinned_windows_amd64": "b3032c1202445dc568144a0b1e49fcdcd68d2e33e3261a08fb5ac2a4dc368626f9661f8af6aa39983a61c29e698634fdb6b05a586d2b8c988eb1f19f786ed8ca"
     },
     "simpleini": {
         "find_args": "MODULE",
@@ -286,7 +289,8 @@
         "name": "sirit",
         "package": "sirit",
         "repo": "eden-emulator/sirit",
-        "version": "v1.0.7"
+        "version": "v1.0.7",
+        "pinned_windows_amd64": "4b085968443095ecf53fd3ea09d3071e81b0115c55d41842a89938d6141a056b64154e92b8032245bb4e928de3d716b45523c3b040f4f9d52ed04d86823c825c"
     },
     "spirv-headers": {
         "hash": "d624371dd455c66a300344c89812598ffe11b5eedba555779f789e85c29dc67317741858c60e0744a1e6755cc0d2759b8659f0674f4cc31479c4cb6fc25ed23b",

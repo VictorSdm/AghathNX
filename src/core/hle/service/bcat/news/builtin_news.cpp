@@ -79,32 +79,10 @@ std::vector<u8> TryLoadFromDisk(const std::filesystem::path& path) {
     return data;
 }
 
-// TODO(crueter): Migrate to use Common::Net
-std::vector<u8> DownloadImage(const std::string& url_path, const std::filesystem::path& cache_path) {
-    LOG_DEBUG(Service_BCAT, "Downloading image: https://eden-emu.dev{}", url_path);
-    try {
-        httplib::Client cli("https://eden-emu.dev");
-        cli.set_follow_location(true);
-        cli.set_connection_timeout(std::chrono::seconds(2));
-        cli.set_read_timeout(std::chrono::seconds(2));
-
-#ifdef YUZU_BUNDLED_OPENSSL
-        cli.load_ca_cert_store(kCert, sizeof(kCert));
-#endif
-
-        if (auto res = cli.Get(url_path); res && res->status == 200 && !res->body.empty()) {
-            std::vector<u8> data(res->body.begin(), res->body.end());
-
-            std::error_code ec;
-            std::filesystem::create_directories(cache_path.parent_path(), ec);
-            if (std::ofstream out(cache_path, std::ios::binary); out) {
-                out.write(res->body.data(), static_cast<std::streamsize>(res->body.size()));
-            }
-            return data;
-        }
-    } catch (...) {
-        LOG_WARNING(Service_BCAT, "Failed to download: {}", url_path);
-    }
+// AghathNX: news images came from Eden's server (eden-emu.dev). AghathNX doesn't contact it; the
+// news show without a picture.
+std::vector<u8> DownloadImage(const std::string& url_path, const std::filesystem::path&) {
+    LOG_DEBUG(Service_BCAT, "News image {} not downloaded (no AghathNX image server)", url_path);
     return {};
 }
 
@@ -311,7 +289,7 @@ void ImportReleases(const std::vector<Common::Net::Release> &releases) {
         const u64 pickup_limit = published + 600000000;
         const u32 priority = rel.prerelease ? 1500 : 2500;
 
-        std::string author = "Eden";
+        std::string author = "AghathNX";
 
         auto payload = BuildMsgpack(title, FormatBody(body, title), title, published,
                                     pickup_limit, priority, {"en"}, author, {},

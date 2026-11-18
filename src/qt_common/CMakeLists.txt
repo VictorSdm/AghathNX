@@ -60,6 +60,16 @@ if (USE_DISCORD_PRESENCE)
     endif()
 
     target_compile_definitions(qt_common PUBLIC USE_DISCORD_PRESENCE)
+
+    # AghathNX: Discord shows the name and pictures of the application whose ID this is. It used
+    # Eden's; create AghathNX's own at discord.com/developers/applications and pass its ID.
+    set(AGHATHNX_DISCORD_CLIENT_ID "" CACHE STRING "AghathNX's Discord application ID")
+    if (NOT AGHATHNX_DISCORD_CLIENT_ID MATCHES "^[0-9]+$")
+        message(FATAL_ERROR "USE_DISCORD_PRESENCE needs AGHATHNX_DISCORD_CLIENT_ID, the ID of "
+            "AghathNX's own Discord application.")
+    endif()
+    target_compile_definitions(qt_common PRIVATE
+        AGHATHNX_DISCORD_CLIENT_ID="${AGHATHNX_DISCORD_CLIENT_ID}")
 endif()
 
 # TODO(crueter)

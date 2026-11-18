@@ -38,6 +38,14 @@ $WebClient = New-Object System.Net.WebClient
 $WebClient.DownloadFile($Uri, $Destination)
 echo "Finished downloading $ExeFile"
 
+# AghathNX: only run the installer if Windows says its code signature is valid.
+$Signature = Get-AuthenticodeSignature -FilePath $Destination
+echo "Signature: $($Signature.Status), signed by: $($Signature.SignerCertificate.Subject)"
+if ($Signature.Status -ne "Valid") {
+    echo "The Vulkan SDK installer's signature is not valid ($($Signature.Status)); not running it."
+    Exit 1
+}
+
 $Arguments = "--root `"$VULKAN_SDK`" --accept-licenses --default-answer --confirm-command install"
 
 echo "Installing Vulkan SDK $VulkanSDKVer"

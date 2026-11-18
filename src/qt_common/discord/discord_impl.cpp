@@ -29,9 +29,9 @@ namespace DiscordRPC {
 
 DiscordImpl::DiscordImpl(Core::System& system_) : system{system_} {
     DiscordEventHandlers handlers{};
-    // The number is the client ID for Eden, it's used for images and the
-    // application name
-    Discord_Initialize("1397286652128264252", &handlers, 1, nullptr);
+    // AghathNX's own Discord application (src/qt_common/CMakeLists.txt); Discord takes the name
+    // shown from it.
+    Discord_Initialize(AGHATHNX_DISCORD_CLIENT_ID, &handlers, 1, nullptr);
 }
 
 DiscordImpl::~DiscordImpl() {
@@ -71,8 +71,7 @@ std::string DiscordImpl::GetGameString(const std::string& title) {
 
 static constexpr char DEFAULT_DISCORD_TEXT[] = "AghathNX is an emulator for the Nintendo Switch";
 static constexpr char DEFAULT_DISCORD_IMAGE[] =
-    "https://git.eden-emu.dev/eden-emu/eden/raw/branch/master/dist/qt_themes/default/icons/256x256/"
-    "eden.png";
+    "https://raw.githubusercontent.com/VictorSdm/AghathNX/main/dist/aghathnx.png";
 
 void DiscordImpl::UpdateGameStatus(std::string_view game_url, bool has_boxart) {
     const std::string url = std::string{has_boxart ? game_url : DEFAULT_DISCORD_IMAGE};
@@ -95,30 +94,8 @@ void DiscordImpl::UpdateGameStatus(std::string_view game_url, bool has_boxart) {
 void DiscordImpl::Update() {
     if (system.IsPoweredOn()) {
         system.GetAppLoader().ReadTitle(game_title);
-
-        // Used to format Icon URL for yuzu website game compatibility page
-        std::string icon_name = GetGameString(game_title);
-        auto const game_url = fmt::format(
-            "https://raw.githubusercontent.com/eden-emulator/boxart/refs/heads/master/img/{}.png",
-            icon_name);
-
-        httplib::SSLClient client(game_url);
-        client.set_connection_timeout(3);
-        client.set_read_timeout(3);
-        client.set_follow_location(true);
-
-#ifdef YUZU_BUNDLED_OPENSSL
-        client.load_ca_cert_store(kCert, sizeof(kCert));
-#endif
-
-        httplib::Request request{
-            .method = "HEAD",
-            .path = game_url,
-        };
-
-        auto res = client.send(request);
-        UpdateGameStatus(game_url, res && res->status == 200);
-
+        // AghathNX: no game picture from Eden's boxart repository; AghathNX's icon instead.
+        UpdateGameStatus({}, false);
         return;
     }
 

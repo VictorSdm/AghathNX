@@ -562,6 +562,9 @@ macro(parse_object object)
         get_json_element("${object}" name name "${JSON_NAME}")
         get_json_element("${object}" extension extension "tar.zst")
         get_json_element("${object}" raw_disabled disabled_platforms)
+        # AghathNX: SHA-512 of the windows-amd64 artifact, checked against the release's own
+        # .sha512sum so a replaced upload can't slip into a build.
+        get_json_element("${object}" pinned_windows_amd64 pinned_windows_amd64)
 
         if(raw_disabled)
             array_to_list("${raw_disabled}"
@@ -691,6 +694,7 @@ function(AddJsonPackage)
             PACKAGE "${package}"
             EXTENSION "${extension}"
             DISABLED_PLATFORMS "${disabled_platforms}"
+            PINNED_WINDOWS_AMD64 "${pinned_windows_amd64}"
 
             GIT_HOST "${git_host}"
 
@@ -945,7 +949,8 @@ function(AddCIPackage)
         PACKAGE
         EXTENSION
         GIT_HOST
-        PKGNAME)
+        PKGNAME
+        PINNED_WINDOWS_AMD64)
 
     set(multiValueArgs DISABLED_PLATFORMS)
 
@@ -1077,6 +1082,20 @@ function(AddCIPackage)
             string(STRIP "${sha512sum_hash}" sha512sum_hash)
             file(REMOVE "${sha512sum_file}")
             set(hash_args HASH ${sha512sum_hash})
+        endif()
+
+        # AghathNX: a pinned hash wins over the one downloaded next to the artifact.
+        if (pkgname STREQUAL "windows-amd64" AND PKG_ARGS_PINNED_WINDOWS_AMD64)
+            if (DEFINED sha512sum_hash AND NOT sha512sum_hash STREQUAL "")
+                string(REGEX MATCH "^[0-9a-fA-F]+" sha512sum_only "${sha512sum_hash}")
+                string(TOLOWER "${sha512sum_only}" sha512sum_only)
+                if (NOT sha512sum_only STREQUAL PKG_ARGS_PINNED_WINDOWS_AMD64)
+                    message(FATAL_ERROR "[CPMUtil] ${ARTIFACT_NAME}: the release's sha512sum "
+                        "(${sha512sum_only}) differs from the pinned hash in cpmfile.json. "
+                        "The upload may have been replaced; check it before building.")
+                endif()
+            endif()
+            set(hash_args HASH ${PKG_ARGS_PINNED_WINDOWS_AMD64})
         endif()
 
         AddPackage(

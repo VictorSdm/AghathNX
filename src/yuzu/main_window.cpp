@@ -1457,7 +1457,7 @@ void MainWindow::InitializeHotkeys() {
     hotkey_registry.LoadHotkeys();
 
     LinkActionShortcut(ui->action_Load_File, QStringLiteral("Load File"));
-    LinkActionShortcut(ui->action_Exit, QStringLiteral("Exit Eglantine"));
+    LinkActionShortcut(ui->action_Exit, QStringLiteral("Exit AghathNX"));
     LinkActionShortcut(ui->action_Restart, QStringLiteral("Restart Emulation"));
     LinkActionShortcut(ui->action_Pause, QStringLiteral("Continue/Pause Emulation"));
     LinkActionShortcut(ui->action_Stop, QStringLiteral("Stop Emulation"));
@@ -2066,7 +2066,7 @@ bool MainWindow::LoadROM(const QString& filename, Service::AM::FrontendAppletPar
                 tr("An error occurred initializing the video core."),
                 tr("This is usually caused by outdated GPU drivers. "
                    "Please see the log for more details. See: "
-                   "<a href='https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/HowToAccessLogs.md'>"
+                   "<a href='https://github.com/VictorSdm/AghathNX/blob/main/docs/user/HowToAccessLogs.md'>"
                    "How to access log files</a>."));
             break;
         default:
@@ -3616,7 +3616,7 @@ void MainWindow::OnOpenModsPage() {
 }
 
 void MainWindow::OnOpenUserHandbook() {
-    OpenURL(QUrl(QStringLiteral("https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/README.md")));
+    OpenURL(QUrl(QStringLiteral("https://github.com/VictorSdm/AghathNX/blob/main/docs/user/README.md")));
 }
 
 void MainWindow::ToggleFullscreen() {
