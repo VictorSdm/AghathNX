@@ -24,7 +24,7 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Eden is an experimental open-source emulator for the Nintendo Switch licensed under GPLv3.0+ which is based on the yuzu emulator which ended development back in March 2024. &lt;br /&gt;&lt;br /&gt;This software should not be used to play games you have not legally obtained.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -43,6 +43,38 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Eden is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;نينتندو سويتش&amp;quot;  هي علامة تجارية مملوكة لشركة نينتندو. لا ترتبط إيدن بشركة نينتندو بأي شكل من الأشكال.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/aboutdialog.ui" line="0"/>
+        <source>About AghathNX</source>
+        <translation>حول إيدن</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/aboutdialog.ui" line="0"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;AghathNX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;إيدن&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/aboutdialog.ui" line="0"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;AghathNX is an experimental open-source emulator for the Nintendo Switch and Switch 2, based on Fritchii, Lichii, Eglantine, Eden and yuzu. &lt;br /&gt;&lt;br /&gt;This software should not be used to play games you have not legally obtained.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/aboutdialog.ui" line="0"/>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/VictorSdm/AghathNX&quot;&gt;Source Code&lt;/a&gt; | &lt;a href=&quot;https://github.com/VictorSdm/AghathNX/issues&quot;&gt;Report an Issue&lt;/a&gt; | &lt;a href=&quot;https://github.com/VictorSdm/AghathNX#cr%C3%A9ditos-e-licen%C3%A7a&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/aboutdialog.ui" line="0"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. AghathNX is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;نينتندو سويتش&amp;quot;  هي علامة تجارية مملوكة لشركة نينتندو. لا ترتبط إيدن بشركة نينتندو بأي شكل من الأشكال.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
@@ -371,7 +403,7 @@ Doesn&apos;t affect performance/stability but may allow HD texture mods to load.
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="73"/>
-        <source>Controls the game's maximum rendering speed, but it's up to each game if it runs faster or not.
+        <source>Controls the game&apos;s maximum rendering speed, but it&apos;s up to each game if it runs faster or not.
 200% for a 30 FPS game is 60 FPS, and for a 60 FPS game it will be 120 FPS.
 Disabling it means unlocking the framerate to the maximum your PC can reach.</source>
         <translation>يتحكم هذا الخيار في أقصى سرعة عرض للعبة، ولكن لكل لعبة تحديد ما إذا كانت ستعمل أسرع أم لا.
@@ -405,7 +437,7 @@ Disabling it means unlocking the framerate to the maximum your PC can reach.</so
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="86"/>
-        <source>Synchronizes CPU core speed with the game's maximum rendering speed to boost FPS without affecting game speed (animations, physics, etc.).
+        <source>Synchronizes CPU core speed with the game&apos;s maximum rendering speed to boost FPS without affecting game speed (animations, physics, etc.).
 Can help reduce stuttering at lower framerates.</source>
         <translation>يُزامن سرعة نواة المعالج مع أقصى سرعة عرض للعبة لزيادة معدل الإطارات في الثانية دون التأثير على سرعة اللعبة (الرسوم المتحركة، والفيزياء، إلخ).
 يساعد في تقليل التلعثم عند معدلات الإطارات المنخفضة.</translation>
@@ -456,7 +488,7 @@ Weaker CPUs may see reduced performance, and certain games may behave improperly
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="110"/>
         <source>This optimization speeds up memory accesses by the guest program.
-Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host's MMU.
+Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host&apos;s MMU.
 Disabling this forces all memory accesses to use Software MMU Emulation.</source>
         <translation>يُسرّع هذا التحسين وصول برنامج الضيف إلى الذاكرة. يؤدي تفعيله إلى قراءة/كتابة ذاكرة الضيف مباشرةً في الذاكرة، واستخدام وحدة ذاكرة الجهاز المضيف MMU. أما تعطيله، فيُجبر جميع عمليات الوصول إلى الذاكرة على استخدام محاكاة وحدة ذاكرة الجهاز البرمجية MMU.</translation>
     </message>
@@ -673,7 +705,7 @@ In most cases, GPU decoding provides the best performance.</source>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="177"/>
         <source>This option controls how ASTC textures should be decoded.
 CPU: Use the CPU for decoding.
-GPU: Use the GPU's compute shaders to decode ASTC textures (recommended).
+GPU: Use the GPU&apos;s compute shaders to decode ASTC textures (recommended).
 CPU Asynchronously: Use the CPU to decode ASTC textures on demand. EliminatesASTC decoding
 stuttering but may present artifacts.</source>
         <translation>يتحكم هذا الخيار في كيفية فك تشفير قوام ASTC.
@@ -2414,7 +2446,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="140"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up memory accesses by the guest program.&lt;/div&gt;
-            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host's MMU.&lt;/div&gt;
+            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host&apos;s MMU.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Disabling this forces all memory accesses to use Software MMU Emulation.&lt;/div&gt;
            </source>
         <translation>
@@ -2432,7 +2464,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="154"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up exclusive memory accesses by the guest program.&lt;/div&gt;
-            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest exclusive memory reads/writes to be done directly into memory and make use of Host's MMU.&lt;/div&gt;
+            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest exclusive memory reads/writes to be done directly into memory and make use of Host&apos;s MMU.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Disabling this forces all exclusive memory accesses to use Software MMU Emulation.&lt;/div&gt;
            </source>
         <translation>
@@ -2466,7 +2498,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="181"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up memory accesses by allowing invalid memory accesses to succeed.&lt;/div&gt;
-            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it reduces the overhead of all memory accesses and has no impact on programs that don't access invalid memory.&lt;/div&gt;
+            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it reduces the overhead of all memory accesses and has no impact on programs that don&apos;t access invalid memory.&lt;/div&gt;
            </source>
         <translation>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;يعمل هذا التحسين على تسريع عمليات الوصول إلى الذاكرة عن طريق السماح بنجاح الوصول إلى الذاكرة غير الصالحة.&lt;/div&gt;
@@ -2806,6 +2838,11 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <source>**This will be reset automatically when Eden closes.</source>
         <translation>**سيتم إعادة تعيين هذا تلقائيًا عند إغلاق إيدن.</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="0"/>
+        <source>**This will be reset automatically when AghathNX closes.</source>
+        <translation>**سيتم إعادة تعيين هذا تلقائيًا عند إغلاق إيدن.</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureDebugController</name>
@@ -2941,6 +2978,31 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="84"/>
         <source>Web</source>
         <translation>الويب</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure.ui" line="0"/>
+        <source>AghathNX Configuration</source>
+        <translation>إعدادات إيدن</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="236"/>
+        <source>Advanced</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="241"/>
+        <source>Interface</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="242"/>
+        <source>Shortcuts</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="243"/>
+        <source>Users</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3223,6 +3285,38 @@ Would you like to delete the old save data?</source>
         <source>This directory is already in the list.</source>
         <translation>هذا المجلد موجود بالفعل في القائمة.</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="65"/>
+        <source>Restore Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="66"/>
+        <source>No saved settings yet. Reset to Defaults saves them first.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="75"/>
+        <source>Settings saved on:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="143"/>
+        <source>Put every setting back to AghathNX&apos;s defaults?
+
+Your current settings are saved first: Restore Settings brings them back. Controls and game folders stay.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="148"/>
+        <source>Reset to Defaults</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="148"/>
+        <source>AghathNX</source>
+        <translation>إيدن</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureGraphics</name>
@@ -3343,6 +3437,11 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_graphics_extensions.cpp" line="68"/>
         <source>Extended Dynamic State is disabled on macOS due to MoltenVK compatibility issues that cause black screens.</source>
         <translation>تم تعطيل الحالة الديناميكية الممتدة على نظام macOS بسبب مشكلات توافق MoltenVK التي تتسبب في ظهور شاشات سوداء.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.cpp" line="84"/>
+        <source>&lt;b&gt;GPU thread pinning is built in.&lt;/b&gt;&lt;br&gt;On automatically, nothing to turn on. AghathNX had it first.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -3598,6 +3697,11 @@ Would you like to delete the old save data?</source>
         <source>Clear</source>
         <translation>مسح</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input.cpp" line="149"/>
+        <source>Microphone</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>ConfigureInputAdvanced</name>
@@ -3813,6 +3917,11 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2772"/>
         <source>Disable SDL WGI/XInput (Requires restart)</source>
         <translation>(يتطلب إعادة التشغيل) SDL WGI/XInput تعطيل</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="0"/>
+        <source>Requires restarting AghathNX</source>
+        <translation>يتطلب إعادة تشغيل إيدن</translation>
     </message>
 </context>
 <context>
@@ -4542,6 +4651,11 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
         <source>UDP Test or calibration configuration is in progress.&lt;br&gt;Please wait for them to finish.</source>
         <translation>أو ضبط المعايرة قيد التقدم. &lt;br&gt;يرجى الانتظار حتى الانتهاء UDP اختبار</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="166"/>
+        <source>AghathNX</source>
+        <translation>إيدن</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureMousePanning</name>
@@ -4776,6 +4890,97 @@ Current values are %1% and %2% respectively.</source>
         <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="90"/>
         <source>Properties</source>
         <translation>خصائص</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="555"/>
+        <source>Enter game name...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="557"/>
+        <source>Edit the game name stored in the NUP metadata</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="632"/>
+        <source>Select Game Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="633"/>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="639"/>
+        <source>Invalid Image</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="640"/>
+        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="666"/>
+        <source>Detect Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="667"/>
+        <source>Please enter a game name first so the icon can be detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="672"/>
+        <source>The game name is too long to search.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="677"/>
+        <source>Detecting...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="885"/>
+        <source>Update NUP Metadata</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="886"/>
+        <source>Stop emulation before changing NUP metadata.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="908"/>
+        <source>Failed to update NUP metadata:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="0"/>
+        <source>Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="0"/>
+        <source>Preview a local image as the game icon. Apply or OK saves changes.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="0"/>
+        <source>Upload Icon...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="0"/>
+        <source>Allow online lookup</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="0"/>
+        <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -5303,6 +5508,16 @@ UUID: %2</source>
         <source>Warning: &quot;%1&quot; is not a valid language for region &quot;%2&quot;</source>
         <translation>تحذير: &quot;%1&quot; ليست لغة صالحة للمنطقة &quot;%2&quot;</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_system.cpp" line="171"/>
+        <source>Memory Layout</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_system.cpp" line="172"/>
+        <source>Switch 2 games, like Ocarina of Time, always use 12 GB while they run. This setting only changes Switch 1 games.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>ConfigureTas</name>
@@ -5508,6 +5723,11 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="132"/>
         <source>Restore Defaults</source>
         <translation>استعادة الإعدادات الافتراضية</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="0"/>
+        <source>Warning: The settings in this page affect the inner workings of AghathNX&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
+        <translation>تحذير: الإعدادات في هذه الصفحة تؤثر على طريقة عمل شاشة اللمس المحاكية في إيدن. تغييرها قد يؤدي إلى سلوك غير مرغوب فيه، مثل عدم عمل شاشة اللمس جزئيًا أو بالكامل. يجب استخدام هذه الصفحة فقط إذا كنت تعرف ما تفعله.</translation>
     </message>
 </context>
 <context>
@@ -5824,6 +6044,11 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <comment>Tooltip</comment>
         <translation>يجب أن يكون 48 حرفًا، وبأحرف صغيرة من a إلى z</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_web.ui" line="0"/>
+        <source>AghathNX Web Service</source>
+        <translation>خدمة ويب إيدن</translation>
+    </message>
 </context>
 <context>
     <name>ControllerDialog</name>
@@ -5940,6 +6165,21 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
         <source>Version</source>
         <translation>الإصدار</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.ui" line="0"/>
+        <source>AghathNX Dependencies</source>
+        <translation>تبعيات إيدن</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.ui" line="0"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;AghathNX Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;تبعيات إيدن&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.ui" line="0"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make AghathNX possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;المشاريع التي تجعل إيدن ممكنة&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -6160,6 +6400,11 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <source>This build doesn&apos;t have OpenGL support.</source>
         <translation>هذا الإصدار لا يدعم OpenGL.</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="871"/>
+        <source>AghathNX has not been compiled with OpenGL support.</source>
+        <translation>OpenGL لم يتم تجميع إيدن بدعم</translation>
+    </message>
 </context>
 <context>
     <name>GameList</name>
@@ -6333,6 +6578,61 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <location filename="../../src/yuzu/game/game_list.cpp" line="643"/>
         <source>Clear</source>
         <translation>مسح</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="479"/>
+        <source>Rebuild shader warm-up</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="479"/>
+        <source>Prepare shaders (warm-up)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="482"/>
+        <source>Delete shader warm-up</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="504"/>
+        <source>Dump NUP...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="514"/>
+        <source>Convert to NUP...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="523"/>
+        <source>Convert to NX...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="527"/>
+        <source>Manage NX Archive</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="528"/>
+        <source>Add Update or DLC...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="529"/>
+        <source>Remove Update or DLC...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="531"/>
+        <source>Edit Title and Icon...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="544"/>
+        <source>Edit NUP Metadata...</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -6739,6 +7039,11 @@ Debug Message: </source>
         <source>Toggle Performance Overlay</source>
         <translation>تفعيل/تعطيل طبقة الأداء</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="29"/>
+        <source>Exit AghathNX</source>
+        <translation>خروج من إيدن</translation>
+    </message>
 </context>
 <context>
     <name>InstallDialog</name>
@@ -6767,7 +7072,7 @@ Debug Message: </source>
     <name>LimitableInputDialog</name>
     <message>
         <location filename="../../src/yuzu/util/limitable_input_dialog.cpp" line="60"/>
-        <source>The text can't contain any of the following characters:
+        <source>The text can&apos;t contain any of the following characters:
 %1</source>
         <translation>لا يمكن أن يحتوي النص على أي من الأحرف التالية:
 %1</translation>
@@ -6809,6 +7114,21 @@ Debug Message: </source>
         <location filename="../../src/yuzu/loading_screen.cpp" line="173"/>
         <source>Estimated Time %1</source>
         <translation>%1 الوقت المقدر</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/loading_screen.cpp" line="98"/>
+        <source>Starting...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/loading_screen.cpp" line="99"/>
+        <source>Preparing shaders %1 / %2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/loading_screen.cpp" line="100"/>
+        <source>Almost ready...</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8072,7 +8392,7 @@ Please, only use this feature to install updates and DLC.</source>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4376"/>
         <source>Wayland is known to have significant performance issues and mysterious bugs.
-It's recommended to use X11 instead.
+It&apos;s recommended to use X11 instead.
 
 Would you like to force it for future launches?</source>
         <translation>يعاني من مشاكل كبيرة في الأداء وأخطاء غامضة Wayland من المعروف أن
@@ -8286,6 +8606,634 @@ Would you like to bypass this and exit anyway?</source>
         <source>Null</source>
         <translation>لا شيء</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/main_window_fritchii.cpp" line="37"/>
+        <source>Delete Shader Cache</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/main_window_fritchii.cpp" line="39"/>
+        <source>Stop the game first.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/main_window_fritchii.cpp" line="43"/>
+        <source>Delete OoT&apos;s shader cache?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/main_window_fritchii.cpp" line="44"/>
+        <source>Delete this game&apos;s shader cache?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/main_window_fritchii.cpp" line="46"/>
+        <source>Only if the game crashes or looks wrong because of it. The shaders are prepared again on the next start.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/main_window_fritchii.cpp" line="48"/>
+        <source>Delete</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/main_window_fritchii.cpp" line="165"/>
+        <source>the game</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="0"/>
+        <source>AghathNX</source>
+        <translation>يوزو</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="0"/>
+        <source>Open &amp;AghathNX Folders</source>
+        <translation>فتح مجلدات إيدن</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="0"/>
+        <source>&amp;About AghathNX</source>
+        <translation>&amp;حول إيدن</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="0"/>
+        <source>&amp;AghathNX Dependencies</source>
+        <translation>&amp;تبعيات إيدن</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="684"/>
+        <source>Ocarina of Time frame rate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="686"/>
+        <source>Which frame rate should Ocarina of Time run at?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="688"/>
+        <source>60 FPS needs a fast, recent CPU.
+30 FPS is for lower-end PCs. The game keeps its normal speed either way.
+
+Switch any time with the 60 FPS / 30 FPS button at the bottom of the window.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="691"/>
+        <source>60 FPS</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="692"/>
+        <source>30 FPS (lower-end PCs)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1113"/>
+        <source>Shaders prepared ahead of time so the game stutters less when it first uses them.
+It never slows the game down: it builds while the game is paused, or right away from Emulation &gt; Prepare Shaders Now.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1129"/>
+        <source>NVIDIA DLSS is upscaling the game, in the mode shown. The window adapting filter runs after it.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1352"/>
+        <source>Ocarina of Time frame rate. Click to switch between 60 FPS and 30 FPS (lower-end PCs); it takes effect at once.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1710"/>
+        <source>Prepare &amp;Shaders Now</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1841"/>
+        <source>Check for Updates...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1845"/>
+        <source>Roll Back to the Previous Version...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2067"/>
+        <source>This is usually caused by outdated GPU drivers. Please see the log for more details. See: &lt;a href=&apos;https://github.com/VictorSdm/AghathNX/blob/main/docs/user/HowToAccessLogs.md&apos;&gt;How to access log files&lt;/a&gt;.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2122"/>
+        <source>NX Archive</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2123"/>
+        <source>Wait for the NX metadata edit to finish before starting a game.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2128"/>
+        <source>Conversion in Progress</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2129"/>
+        <source>This game cannot be started while its dump is being converted.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2134"/>
+        <source>Shader Warm-up in Progress</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2135"/>
+        <source>Games cannot be started while the shader warm-up is being prepared. Wait for it to finish or cancel it.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2204"/>
+        <source>Recommended Mario Kart World settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2205"/>
+        <source>Use the recommended settings for Mario Kart World?
+
+Vulkan, 1x resolution, GPU Fast, asynchronous shaders, BC3, conservative VRAM, reactive flushing off, FIFO Relaxed VSync, handheld mode, ScaleForce, and FXAA.
+
+They apply to Mario Kart World until AghathNX is closed. Your saved settings are not changed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2241"/>
+        <source>Preparing game files...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2260"/>
+        <source>Unable to prepare game files</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2261"/>
+        <source>Game preparation failed. See the log for details.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3217"/>
+        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3905"/>
+        <source>Restore Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3906"/>
+        <source>Some settings could not be restored. AghathNX&apos;s defaults fill the gaps.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4310"/>
+        <source>Export Log...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4416"/>
+        <source>Stop emulation before editing NX metadata.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4442"/>
+        <source>Stop the game before changing its NX archive.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4456"/>
+        <source>Convert to NUP</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4460"/>
+        <source>The target archive already exists:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4471"/>
+        <source>Resume Conversion</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4472"/>
+        <source>Resume the interrupted conversion?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4500"/>
+        <source>Converting to NUP</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4547"/>
+        <source>Conversion Complete</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4548"/>
+        <source>The NUP was created and the loose folder was removed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4550"/>
+        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4556"/>
+        <source>Conversion Cancelled</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4557"/>
+        <source>The conversion can be resumed by choosing Convert to NUP again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4562"/>
+        <source>Conversion Failed</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4582"/>
+        <source>Prepare Shaders</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4583"/>
+        <source>Close the running game first.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4588"/>
+        <source>This game is being converted. Try again when it is done.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4616"/>
+        <source>Delete Shader Warm-up</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4617"/>
+        <source>Shaders are being prepared. Try again when it is done.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4623"/>
+        <source>Delete the shader warm-up files of this game? You can prepare them again at any time.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4631"/>
+        <source>The files could not be deleted: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4652"/>
+        <source>Prepare Shaders Now</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4653"/>
+        <source>This game has no shader warm-up left to build.
+
+To make one, close the game, right-click it in the game list and choose Prepare shaders (warm-up). A warm-up that ran to the end runs again only after a driver update.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4663"/>
+        <source>Stop</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4676"/>
+        <source>The game keeps running and can stutter or slow down until this is done; pausing it makes this faster. Stop keeps what is built: the rest builds while the game is paused, or the next time you start this.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4701"/>
+        <source>Close</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4702"/>
+        <source>Shaders are ready.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4707"/>
+        <source>Building compute shaders</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4708"/>
+        <source>Building graphics shaders</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4709"/>
+        <source>Building precompiled shaders</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4710"/>
+        <source>Starting</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4712"/>
+        <source>%L1 / %L2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4743"/>
+        <source>Extract NUP</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4752"/>
+        <source>The target directory already exists:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4758"/>
+        <source>Extracting NUP</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4818"/>
+        <source>Extraction Complete</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4819"/>
+        <source>The NUP was extracted. You can delete the NUP file if you no longer need it.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4829"/>
+        <source>Extraction Failed</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4863"/>
+        <source>Editing NUP Metadata</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4911"/>
+        <source>Edit Complete</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4912"/>
+        <source>The NUP metadata was updated.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4923"/>
+        <source>Edit Failed</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5080"/>
+        <source>Could not check for updates: GitHub rate limit reached. AghathNX will try again at the next start.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5085"/>
+        <source>Could not check for updates: GitHub answered with HTTP %1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5088"/>
+        <source>Could not check for updates. Check your internet connection.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5093"/>
+        <source>Check for Updates</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5102"/>
+        <source>You have the latest version (%1 %2).</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5117"/>
+        <source>%1 is available. It will be offered when the game closes.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5303"/>
+        <source>DLSS %1 %2</source>
+        <comment>NVIDIA DLSS mode and model preset, e.g. DLSS DLAA M</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5308"/>
+        <source> (%1 DOESN&apos;T FIT)</source>
+        <comment>The DLSS mode the user chose</comment>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5331"/>
+        <source>Shader warm-up: compute %L1 / %L2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5332"/>
+        <source>Shader warm-up: compute %L1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5335"/>
+        <source>Shader warm-up: graphics %L1 / %L2 (%3%)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5340"/>
+        <source>Shader warm-up: graphics %L1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5343"/>
+        <source>(waits while you play)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5390"/>
+        <source>30 FPS</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5423"/>
+        <source>High refresh: off (30 FPS)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5423"/>
+        <source>High refresh: off (60 FPS)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5427"/>
+        <source>High refresh: on, but the 30 FPS mode wins</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5448"/>
+        <source>High refresh: on (%1 FPS cap)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5449"/>
+        <source>High refresh: on (monitor refresh cap)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5453"/>
+        <source>High refresh: off in Add-Ons</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5456"/>
+        <source>High refresh: busy, try again</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5459"/>
+        <source>High refresh: can&apos;t switch, a mod or Add-Ons changed that code</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5463"/>
+        <source>High refresh: can&apos;t switch in this game version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5652"/>
+        <source>Restart AghathNX to apply the X11 backend.</source>
+        <translation>X11 أعد تشغيل إيدن لتطبيق الخلفية</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5699"/>
+        <source>High refresh</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5699"/>
+        <source>High refresh, unlocked</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5777"/>
+        <source>Are you sure you want to close AghathNX?</source>
+        <translation>هل أنت متأكد من أنك تريد إغلاق إيدن؟</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="5893"/>
+        <source>The currently running application has requested AghathNX to not exit.
+
+Would you like to bypass this and exit anyway?</source>
+        <translation>طلب التطبيق الذي يتم تشغيله حاليًا من إيدن عدم الخروج.
+
+هل ترغب في تجاوز هذا والخروج على أي حال؟</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="38"/>
+        <source>Auto</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="39"/>
+        <source>DLAA</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="41"/>
+        <source>Quality</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="43"/>
+        <source>Balanced</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="45"/>
+        <source>Performance</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="47"/>
+        <source>Ultra Performance</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="51"/>
+        <source>AUTO</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="52"/>
+        <source>J</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="53"/>
+        <source>K</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="54"/>
+        <source>L</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="55"/>
+        <source>M</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="59"/>
+        <source>LSFG</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="60"/>
+        <source>Optical Flow</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="80"/>
+        <source>FSR 1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="85"/>
+        <source>FSR 1 Soft</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
@@ -8328,6 +9276,39 @@ If you wish to clean up the files which were left in the old data location, you 
         <location filename="../../src/yuzu/migration_worker.h" line="73"/>
         <source>Data was migrated successfully.</source>
         <translation>تم نقل البيانات بنجاح.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="74"/>
+        <source>Data was imported successfully. Existing AghathNX data, if any, was kept in backup directories beside the new profile.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="77"/>
+        <source>
+
+Data and settings are shared with %1. The source shader cache was not cleared.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="81"/>
+        <source>
+
+The old profile was retained in backup directories at its old location. Keep these backups until you have checked your saves.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="84"/>
+        <source>
+
+The original %1 profile is unchanged. Keep it until you have checked your saves.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="90"/>
+        <source>Import did not complete. Your source and previous destination data have been kept. Close AghathNX and launch it again to retry or recover.
+
+%1</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -8595,6 +9576,11 @@ Proceed anyway?</source>
         <comment>Tooltip</comment>
         <translation>يجب أن يتكون من 1 إلى 32 حرفًا</translation>
     </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="0"/>
+        <source>AghathNX</source>
+        <translation>إيدن</translation>
+    </message>
 </context>
 <context>
     <name>OverlayDialog</name>
@@ -8620,7 +9606,7 @@ Proceed anyway?</source>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -9226,6 +10212,673 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/qt_common/game_list/game_list_p.h" line="376"/>
         <source>Favorites</source>
         <translation>المفضلة</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="213"/>
+        <source>&amp;Game</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="251"/>
+        <source>Ad&amp;vanced</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="261"/>
+        <source>&amp;Export Log...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="265"/>
+        <source>What&apos;s &amp;New</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="267"/>
+        <source>&amp;Delete Shader Cache...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="274"/>
+        <source>AghathNX &amp;Discord</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="276"/>
+        <source>D&amp;onate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="286"/>
+        <source>&amp;Copy Data from Fritchii, Eden or Lichii...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="290"/>
+        <source>Sa&amp;ves...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="298"/>
+        <source>Open &amp;Recent</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="299"/>
+        <source>Open &amp;Folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="300"/>
+        <source>Game &amp;List</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="301"/>
+        <source>&amp;Icon Size</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="302"/>
+        <source>&amp;Window Size</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="303"/>
+        <source>Create &amp;Shortcut</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="304"/>
+        <source>&amp;Open Game...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="305"/>
+        <source>Open &amp;Extracted Game...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="306"/>
+        <source>&amp;Install Update or DLC...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="307"/>
+        <source>&amp;Settings...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="308"/>
+        <source>Game &amp;Settings...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="309"/>
+        <source>&amp;Data</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="310"/>
+        <source>&amp;NAND</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="311"/>
+        <source>&amp;SD Card</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="312"/>
+        <source>&amp;Mods</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="313"/>
+        <source>Open &amp;Log Folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="314"/>
+        <source>&amp;720p</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="315"/>
+        <source>&amp;900p</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="316"/>
+        <source>&amp;1080p</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="317"/>
+        <source>&amp;List</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="318"/>
+        <source>&amp;Grid</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="319"/>
+        <source>&amp;Carousel</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="320"/>
+        <source>Show Game &amp;Names</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="321"/>
+        <source>&amp;Performance Overlay</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="322"/>
+        <source>&amp;Status Bar</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="323"/>
+        <source>Search &amp;Bar</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="324"/>
+        <source>Single &amp;Window</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="325"/>
+        <source>&amp;Overlay Display Applet</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="326"/>
+        <source>&amp;Data Manager...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="327"/>
+        <source>Take &amp;Screenshot</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="328"/>
+        <source>&amp;Load or Remove Amiibo...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="329"/>
+        <source>From &amp;Folder...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="330"/>
+        <source>From &amp;ZIP...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="331"/>
+        <source>&amp;About AghathNX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="332"/>
+        <source>&amp;Open-Source Components</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="336"/>
+        <source>GRAPHICS</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="366"/>
+        <source>&amp;Renderer</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="372"/>
+        <source>GPU &amp;Accuracy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="380"/>
+        <source>Upscaling &amp;Filter</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="385"/>
+        <source>Anti-&amp;Aliasing</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="390"/>
+        <source>&amp;Effects</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="394"/>
+        <source>Off</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="415"/>
+        <source>Configure Effects...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="419"/>
+        <source>More Settings...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="562"/>
+        <source>This AghathNX keeps its data in the user folder next to aghathnx.exe.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/fritchii_ui.cpp" line="571"/>
+        <source>No fritchii, eden or lichii folder was found in %APPDATA%.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="175"/>
+        <source>Done: the saves of 1 game were copied.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="176"/>
+        <source>Done: the saves of %1 games were copied.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="177"/>
+        <source>
+
+The saves that were there before are backed up in:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="179"/>
+        <source>Saves</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="180"/>
+        <source>Open backup</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="204"/>
+        <source>Close the game first.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="211"/>
+        <source>That didn&apos;t work:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="219"/>
+        <source>
+
+The saves there now are backed up first, in:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="223"/>
+        <source>Export...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="224"/>
+        <source>Your saves to a .zip file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="232"/>
+        <source>AghathNX has no saves yet.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="236"/>
+        <source>AghathNX saves %1.zip</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="239"/>
+        <source>Export saves</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="242"/>
+        <source>Zip files (*.zip)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="248"/>
+        <source>Could not write %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="252"/>
+        <source>Saves exported to:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="255"/>
+        <source>Import...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="256"/>
+        <source>Saves from a .zip file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="263"/>
+        <source>Import saves</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="286"/>
+        <source>Import these saves into AghathNX? The games&apos; saves in AghathNX are replaced.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="311"/>
+        <source>Copy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="313"/>
+        <source>Copy saves from</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="315"/>
+        <source>to</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="334"/>
+        <source>%1 has no saves.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="337"/>
+        <source>Copy the saves from %1 to %2? The games&apos; saves in %2 are replaced.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="341"/>
+        <source> Close %1 first.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="373"/>
+        <source>Fix</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="374"/>
+        <source>Saves that don&apos;t show up in the game</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="383"/>
+        <source>Move the saves that don&apos;t show up into your AghathNX profile?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/saves_window.cpp" line="420"/>
+        <source>Close</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/whats_new.cpp" line="118"/>
+        <source>What&apos;s New</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/whats_new.cpp" line="128"/>
+        <source>What&apos;s new in %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/whats_new.cpp" line="137"/>
+        <source>No notes for this version yet.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/whats_new.cpp" line="142"/>
+        <source>Got it</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.cpp" line="395"/>
+        <source>AghathNX startup stopped</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="69"/>
+        <source>Recover unfinished import</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="70"/>
+        <source>An earlier import did not finish. Recover the previous profile and retry? No source or backup data will be deleted.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="110"/>
+        <source>Move Old Data (retain backup)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="143"/>
+        <source>Import an existing emulator profile into AghathNX?
+Copy keeps the original profile unchanged and is recommended.
+Move retains a recovery backup and requires space for a full copy.
+Link shares settings and saves with the source emulator.
+Existing AghathNX data is kept in backup directories, not merged or deleted.
+
+Close the source emulator, then choose its profile below.
+Close this window to decide on the next launch.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="150"/>
+        <source>Import</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="151"/>
+        <source>Start fresh</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="179"/>
+        <source>AghathNX will use its own profile. Your old emulator data has not been changed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="470"/>
+        <source>Copy your data from another folder?
+AghathNX restarts and copies it over its own. What it has now is kept as a backup.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="472"/>
+        <source>AghathNX keeps its data in its own folder now.
+Copy your data from another emulator folder?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="484"/>
+        <source>%1 (last played %2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="495"/>
+        <source>Saves and keys</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="496"/>
+        <source>Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="497"/>
+        <source>Mods</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="500"/>
+        <source>Cancel</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="565"/>
+        <source>Another emulator seems to be using the %1 folder.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="571"/>
+        <source>Copying your data from the %1 folder to AghathNX&apos;s own folder (%2 GB)...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="639"/>
+        <source>saves and keys</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="642"/>
+        <source>settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="645"/>
+        <source>mods</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="649"/>
+        <source>AghathNX now keeps its data in its own folder:
+%1
+
+%2 copied from the %3 folder.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="653"/>
+        <source>
+
+%1 was too big to copy, so it is shared with the old folder. Keep that folder.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="659"/>
+        <source>
+
+AghathNX&apos;s previous data is kept next to it, in the folders ending in &quot;.backup&quot;.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="662"/>
+        <source>
+
+Shaders get prepared again the first time you start a game.
+Your old folder was not changed: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="667"/>
+        <source>Open folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="679"/>
+        <source>Your data in the %1 folder could not be copied to AghathNX&apos;s folder. Nothing was changed.
+
+%2
+
+Close any emulator or program using it, then start AghathNX again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="684"/>
+        <source>Close and try again</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="685"/>
+        <source>Start without it</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="294"/>
+        <source>Export Log</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="295"/>
+        <source>Zip file (*.zip)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="334"/>
+        <source>the log of this session</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="337"/>
+        <source>the log of an AghathNX that was still running when this one started</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="343"/>
+        <source>the log of the session before</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="367"/>
+        <source>Couldn&apos;t save the log to %1.
+Try another folder.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="376"/>
+        <source>Log Exported</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="377"/>
+        <source>&lt;b&gt;Saved %1&lt;/b&gt;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/export_log.cpp" line="378"/>
+        <source>Attach this file to an issue on the AghathNX GitHub page.&lt;br&gt;&lt;br&gt;What&apos;s inside:&lt;ul style=&apos;margin-left:-20px&apos;&gt;&lt;li&gt;Your log from this session and the one before&lt;/li&gt;&lt;li&gt;Your AghathNX version and the settings that matter for support&lt;/li&gt;&lt;li&gt;A short summary of your PC: Windows version, CPU, graphics card and driver, RAM and screen&lt;/li&gt;&lt;/ul&gt;Your Windows user name and PC name are removed. Nothing else from your PC is in it.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/worker.cpp" line="226"/>
+        <source>%1 (update)</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -10126,7 +11779,7 @@ Do not uncheck unless you know what you&apos;re doing.</source>
     </message>
     <message>
         <location filename="../../src/qt_common/qt_string_lookup.h" line="119"/>
-        <source>Keeps the old data directory. This is recommended if you aren't
+        <source>Keeps the old data directory. This is recommended if you aren&apos;t
 space-constrained and want to keep separate data for the old emulator.</source>
         <translation>يحتفظ بدليل البيانات القديم. يُنصح بهذا إذا
  لم تكن لديك مساحة كافية وترغب في الاحتفاظ ببيانات منفصلة للمحاكي القديم.</translation>
@@ -10572,7 +12225,7 @@ Please try again or contact the developer of the software.</source>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:26pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:26pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -10632,6 +12285,20 @@ By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be
         <location filename="../../src/yuzu/ryujinx_dialog.cpp" line="38"/>
         <source>OS returned error: %1</source>
         <translation>أعاد نظام التشغيل خطأ: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="0"/>
+        <source>Linking save data to Ryujinx lets both Ryujinx and AghathNX reference the same save files for your games.
+
+By selecting &quot;From AghathNX&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
+        <translation>يتيح إيدن الرجوع إلى نفس ملفات الحفظ لألعابك Ryujinx ربط بيانات الحفظ بـ
+
+والعكس صحيح Ryujinx عند اختيار ”من إيدن“، سيتم حذف البيانات المحفوظة سابقًا في</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="0"/>
+        <source>From AghathNX</source>
+        <translation>من إيدن</translation>
     </message>
 </context>
 <context>
@@ -10762,6 +12429,1537 @@ Error code: %3</source>
         <location filename="../../src/yuzu/updater/update_dialog.cpp" line="173"/>
         <source>Successfully downloaded %1. Would you like to open it?</source>
         <translation>تم تنزيل 1% بنجاح. هل تريد فتحه؟</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="89"/>
+        <source>the previous version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="118"/>
+        <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="128"/>
+        <source>Update</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="137"/>
+        <source>Remind Me Later</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="138"/>
+        <source>Skip This Version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="146"/>
+        <source>%1 is ready</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="147"/>
+        <source>%1 is available. You have AghathNX v%2.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="153"/>
+        <source>Open Release Page</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="154"/>
+        <source>This release has no published checksum, so it can&apos;t be installed automatically.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="161"/>
+        <source>Install</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="163"/>
+        <source>AghathNX will download the update, install it and restart. Your settings, saves and keys are not changed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="165"/>
+        <source>Would you like to download this update?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="186"/>
+        <source> This release has no PGO build, so the standard build will be downloaded.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="223"/>
+        <source>Update Needs to Be Installed by Hand</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="224"/>
+        <source>AghathNX can&apos;t write to its folder (%1), so it can&apos;t update itself there. The update will be downloaded instead: unzip it and copy its contents over your AghathNX folder, or move AghathNX to a folder you can write to, such as Documents.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="251"/>
+        <source>Successfully downloaded %1. Would you like to open its folder?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="266"/>
+        <source>Failed to install the update</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="267"/>
+        <source>Another AghathNX window is already updating this folder.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="272"/>
+        <source>An earlier update is unfinished. Start AghathNX again to finish it first.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="289"/>
+        <source>Could not create %1: %2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="298"/>
+        <source>Unpacking...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="311"/>
+        <source>The downloaded update could not be unpacked.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="318"/>
+        <source>The downloaded update does not contain aghathnx.exe.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="328"/>
+        <source>%1 is installed.
+
+The previous version is kept: Help &gt; Roll Back to the Previous Version brings it back.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="334"/>
+        <source>Could not replace the files of this version (%1). AghathNX was not changed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="341"/>
+        <source>The update failed (%1) and some files could not be put back. Close AghathNX and start it again to restore the previous version. If it does not start, download the release again and unzip it over your AghathNX folder; your user data is not affected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="426"/>
+        <source>Downloading... (try %1 of %2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="451"/>
+        <source>Could not download the update. Check your internet connection and try again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="480"/>
+        <source>Download failed verification</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="481"/>
+        <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>AmdFsr4Panel</name>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="119"/>
+        <source>Open Folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="124"/>
+        <source>Where do these files come from?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="127"/>
+        <source>AMD&apos;s FidelityFX SDK release on GitHub. The files are in Kits\FidelityFX\signedbin.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="159"/>
+        <source>&lt;b&gt;Ready.&lt;/b&gt; Found AMD&apos;s FidelityFX runtime from FidelityFX SDK %1. FSR 4 runs if AMD&apos;s driver offers it for this GPU; otherwise FSR 3.1 does.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="162"/>
+        <source>&lt;b&gt;AMD&apos;s files needed:&lt;/b&gt; the FidelityFX runtime from AMD&apos;s FidelityFX SDK %1 (amd_fidelityfx_loader_vk.dll and amd_fidelityfx_upscaler_vk.dll). Until then, FSR 3.1 is used.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="166"/>
+        <source>Folder: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="168"/>
+        <source>Download from AMD (%1 MB)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="176"/>
+        <source>AMD FSR 4</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="177"/>
+        <source>Could not download AMD&apos;s files: %1. FSR 3.1 is used.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="185"/>
+        <source>Contacting AMD&apos;s download...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="199"/>
+        <source>Download AMD FSR 4</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="202"/>
+        <source>AghathNX will download amd_fidelityfx_loader_vk.dll and amd_fidelityfx_upscaler_vk.dll from AMD&apos;s FidelityFX SDK %1 release on GitHub into %2.&lt;br&gt;These files are AMD&apos;s, under AMD&apos;s licence terms below. AghathNX checks AMD&apos;s signature before using them.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="214"/>
+        <source>Accept and Download</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="225"/>
+        <source>Downloading AMD&apos;s FSR 4 files...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="225"/>
+        <source>Cancel</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/amd_fsr4_panel.cpp" line="299"/>
+        <source>AMD&apos;s FSR 4 runtime is ready. It is used the next time a game starts.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>ConfigureMicrophone</name>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_microphone.cpp" line="102"/>
+        <source>System default</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_microphone.cpp" line="111"/>
+        <source>%1 (unavailable)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_microphone.cpp" line="125"/>
+        <source>Microphone input is unavailable. Choose an available input device.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_microphone.cpp" line="137"/>
+        <source>Unable to open the microphone. Check the device and microphone permissions in your operating system.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_microphone.cpp" line="141"/>
+        <source>Stop microphone test</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_microphone.cpp" line="142"/>
+        <source>Listening. Speak into your microphone.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_microphone.cpp" line="152"/>
+        <source>Start microphone test</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>NvidiaDlssPanel</name>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="332"/>
+        <source>Open Folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="335"/>
+        <source>Where do these files come from?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="338"/>
+        <source>NVIDIA&apos;s Streamline releases on GitHub. The files are in bin\x64 of the release zip.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="369"/>
+        <source>%1 from the NVIDIA app</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="376"/>
+        <source>&lt;b&gt;Ready.&lt;/b&gt; Found %1 and %2.&lt;br&gt;DLSS and the settings below apply only when a game uses its own DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="381"/>
+        <source>&lt;b&gt;One file needed:&lt;/b&gt; NVIDIA&apos;s Streamline loader (sl.interposer.dll). %1 will be used. Until then, games use AMD FSR 3.1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="384"/>
+        <source>Download from NVIDIA (1 MB)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="386"/>
+        <source>&lt;b&gt;One file needed:&lt;/b&gt; NVIDIA DLSS (nvngx_dlss.dll). Until then, games use AMD FSR 3.1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="388"/>
+        <source>Download from NVIDIA (31 MB)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="390"/>
+        <source>&lt;b&gt;NVIDIA&apos;s files needed:&lt;/b&gt; the Streamline loader and DLSS (sl.interposer.dll and nvngx_dlss.dll). Until then, games use AMD FSR 3.1.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="392"/>
+        <source>Download from NVIDIA (32 MB)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="398"/>
+        <source>Folder: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="418"/>
+        <source>NVIDIA DLSS</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="419"/>
+        <source>Could not download NVIDIA&apos;s files: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="427"/>
+        <source>Contacting NVIDIA&apos;s download...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="439"/>
+        <source>NVIDIA Streamline</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="462"/>
+        <source>Download NVIDIA DLSS</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="465"/>
+        <source>AghathNX will download %1 from NVIDIA&apos;s Streamline %2 release on GitHub into %3.&lt;br&gt;These files are NVIDIA&apos;s, under NVIDIA&apos;s licence terms below.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="475"/>
+        <source>Accept and Download</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="497"/>
+        <source>Downloading NVIDIA&apos;s DLSS files...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="497"/>
+        <source>Cancel</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/nvidia_dlss_panel.cpp" line="561"/>
+        <source>NVIDIA DLSS is ready. It is used the next time a game starts.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>FritchiiUi::GameControls</name>
+    <message>
+        <location filename="../../src/yuzu/fritchii/game_controls.cpp" line="122"/>
+        <source>Pause</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/game_controls.cpp" line="122"/>
+        <source>Continue</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/game_controls.cpp" line="130"/>
+        <source>Leave fullscreen</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/game_controls.cpp" line="130"/>
+        <source>Fullscreen</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>FritchiiUi::Home</name>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="206"/>
+        <source>Library</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="210"/>
+        <source>Settings</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="213"/>
+        <source>Help</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="224"/>
+        <source>Menu</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="254"/>
+        <source>Game Settings...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="259"/>
+        <source>Delete Shader Cache...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="283"/>
+        <source>Saves</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="293"/>
+        <source>Discord</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="296"/>
+        <source>Donate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="372"/>
+        <source>Play</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="378"/>
+        <source>Add your games</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="379"/>
+        <source>Add Folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="422"/>
+        <source>All games</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/home.cpp" line="427"/>
+        <source>Add folder</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>FritchiiUi::PerfOverlay</name>
+    <message>
+        <location filename="../../src/yuzu/fritchii/perf_overlay.cpp" line="175"/>
+        <source>fps</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/perf_overlay.cpp" line="186"/>
+        <source>%1 ms</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/perf_overlay.cpp" line="188"/>
+        <source>low %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/perf_overlay.cpp" line="206"/>
+        <source>%1 GB</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/perf_overlay.cpp" line="219"/>
+        <source>%1 GB free</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/perf_overlay.cpp" line="222"/>
+        <source>RAM</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/perf_overlay.cpp" line="223"/>
+        <source>VRAM</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>FritchiiUi::PrecompileGate</name>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="154"/>
+        <source>Preparing shaders %1%</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="187"/>
+        <source>Preparing shaders</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="192"/>
+        <source>This happens once, so %1 runs smoothly from the start.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="217"/>
+        <source>Play now</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="245"/>
+        <source>Getting ready</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="252"/>
+        <source>%1 / %2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="270"/>
+        <source>Less than a minute left</source>
+        <translation type="unfinished"/>
+    </message>
+    <message numerus="yes">
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="274"/>
+        <source>About %n min left</source>
+        <translation type="unfinished">
+            <numerusform/>
+        </translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/fritchii/precompile_gate.cpp" line="276"/>
+        <source>About %1 h %2 min left</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>NetworkMessage::ErrorManager</name>
+    <message>
+        <location filename="../../src/yuzu/multiplayer/message.cpp" line="63"/>
+        <source>Error</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>NupEditDialog</name>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="115"/>
+        <source>English (UK)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="116"/>
+        <source>Japanese</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="117"/>
+        <source>French</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="118"/>
+        <source>German</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="119"/>
+        <source>Spanish (Latin America)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="120"/>
+        <source>Spanish</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="121"/>
+        <source>Italian</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="122"/>
+        <source>Dutch</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="123"/>
+        <source>French (Canada)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="124"/>
+        <source>Portuguese</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="125"/>
+        <source>Russian</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="126"/>
+        <source>Korean</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="127"/>
+        <source>Chinese (Traditional)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="128"/>
+        <source>Chinese (Simplified)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="129"/>
+        <source>Portuguese (Brazil)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="538"/>
+        <source>Edit NUP Metadata</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="547"/>
+        <source>Choose Icon...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="548"/>
+        <source>Find Icon Online...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="549"/>
+        <source>Remove Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="555"/>
+        <source>Searching...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="572"/>
+        <source>Name shown in the game list</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="576"/>
+        <source>Publisher shown in the game list</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="580"/>
+        <source>e.g. 1.2.0</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="587"/>
+        <source>Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="620"/>
+        <source>Same as Name</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="634"/>
+        <source>Localized names (%1 set)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="635"/>
+        <source>Localized names</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="637"/>
+        <source>Name</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="639"/>
+        <source>Publisher</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="640"/>
+        <source>Version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="642"/>
+        <source>&lt;b&gt;File&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="647"/>
+        <source>Empty fields remove that metadata. The change is written in place; game data is untouched.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="719"/>
+        <source>Choose Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="719"/>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="728"/>
+        <source>That file could not be read as an image.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="743"/>
+        <source>The icon that was found could not be read.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="763"/>
+        <source>Icon will be removed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="766"/>
+        <source>Custom icon, stored as %1x%1 JPEG.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="769"/>
+        <source>Current icon in the NUP.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="771"/>
+        <source>No icon in the NUP. Add one, or it will have none.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>IconDropZone</name>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="156"/>
+        <source>Drop an image here or click to browse</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="176"/>
+        <source>Drop to replace</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="189"/>
+        <source>Release to use this image</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="190"/>
+        <source>Drop an icon here
+or click to browse</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>NupMetadataDialog</name>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="235"/>
+        <source>Convert to NUP</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="244"/>
+        <source>Choose Icon...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="245"/>
+        <source>Use Detected</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="264"/>
+        <source>Name shown in the game list</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="268"/>
+        <source>Publisher shown in the game list</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="273"/>
+        <source>Auto-detect (nothing found in the dump)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="275"/>
+        <source>Auto-detect: %1 (from %2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="279"/>
+        <source>Set manually:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="281"/>
+        <source>e.g. 1.2.0</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="296"/>
+        <source>Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="297"/>
+        <source>Name</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="298"/>
+        <source>Publisher</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="299"/>
+        <source>Version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="301"/>
+        <source>&lt;b&gt;Source&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;b&gt;Target&lt;/b&gt;&lt;br&gt;%2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="308"/>
+        <source>Approximate space needed: %1 MB. Free on the target volume: %2 MB.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="314"/>
+        <source>Free space is less than the estimate.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="317"/>
+        <source>Low storage: delete the original files as they are packed (cannot be undone)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="321"/>
+        <source>Convert</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="380"/>
+        <source>Choose Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="380"/>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="389"/>
+        <source>That file could not be read as an image.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="405"/>
+        <source>Custom icon, stored as %1x%1 JPEG.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="408"/>
+        <source>Icon found in the dump.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="410"/>
+        <source>No icon found in the dump. Add one, or the NUP will have none.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>NupProgressDialog</name>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="445"/>
+        <source>Preparing...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="465"/>
+        <source>Cancel</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="488"/>
+        <source>%1%</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="490"/>
+        <source>%1 / %2 MB  -  %3 / %4 files</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="498"/>
+        <source>
+%1 MB/s  -  about %2:%3 left</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nup_dialogs.cpp" line="509"/>
+        <source>Cancelling...</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>NxTools</name>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="373"/>
+        <source>%1 cannot be decrypted: %2
+
+Check that your keys are installed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="425"/>
+        <source>Convert to NX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="428"/>
+        <source>Converting to NX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="442"/>
+        <source>NX archive (*.nx)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="450"/>
+        <source>The archive already exists:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="471"/>
+        <source>Updates and DLC of this game were found in the same folder.
+The checked ones are added to the NX archive:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="524"/>
+        <source>The NX archive was created:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="535"/>
+        <source>Add to NX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="539"/>
+        <source>This NX archive cannot be read.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="545"/>
+        <source>Add an update or DLC to this NX archive. The archive is changed in place; the content it already holds is kept.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="548"/>
+        <source>Update Folder...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="549"/>
+        <source>NSP or XCI Files...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="557"/>
+        <source>Adding to NX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="560"/>
+        <source>Select the Update Folder</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="577"/>
+        <source>Version number of this update (for example 196608 for v196608):</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="589"/>
+        <source>Select Updates or DLC</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="590"/>
+        <source>Switch packages (*.nsp *.xci)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="606"/>
+        <source>The NX archive was updated.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="614"/>
+        <source>Remove from NX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="624"/>
+        <source>This NX archive cannot be read: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="630"/>
+        <source>This NX archive holds no update or DLC to remove.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="637"/>
+        <source>Select the content to remove from the archive:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="641"/>
+        <source>DLC %1 (v%2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="642"/>
+        <source>Update %1 (v%2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="653"/>
+        <source>Remove</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="663"/>
+        <source>Removing from NX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="674"/>
+        <source>The selected content was removed from the NX archive.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="683"/>
+        <source>Edit NX Metadata</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="727"/>
+        <source>Title:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="728"/>
+        <source>Publisher:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="739"/>
+        <source>No icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="741"/>
+        <source>Choose Image...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="752"/>
+        <source>Restore Original Image</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="764"/>
+        <source>Icon:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="767"/>
+        <source>The new title and icon are shown in every language. The game itself is not changed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="774"/>
+        <source>Choose Image</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="775"/>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="781"/>
+        <source>This image cannot be read.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="791"/>
+        <source>This image cannot be converted.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="809"/>
+        <source>Editing NX metadata</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="824"/>
+        <source>The icon cannot be saved.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="833"/>
+        <source>The NX archive metadata was updated.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="841"/>
+        <source>Cancel</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="850"/>
+        <source>Cancelling...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="866"/>
+        <source>Preparing...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="868"/>
+        <source>Finishing...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="881"/>
+        <source>%1 left</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="893"/>
+        <source>%1
+Elapsed: %2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="960"/>
+        <source>Move the %1 original packages to the Recycle Bin</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="962"/>
+        <source>Move the original folder to the Recycle Bin:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="964"/>
+        <source>Move the original game to the Recycle Bin:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="988"/>
+        <source>%1 of the %2 original packages could not be moved to the Recycle Bin. They may be in use.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="992"/>
+        <source>The original could not be moved to the Recycle Bin:
+%1
+
+It may be in use. You can delete it yourself.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1003"/>
+        <source>less than a minute</source>
+        <translation type="unfinished"/>
+    </message>
+    <message numerus="yes">
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1006"/>
+        <source>about %n minute(s)</source>
+        <translation type="unfinished">
+            <numerusform/>
+        </translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1008"/>
+        <source>about %1 h %2 min</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1031"/>
+        <source>Already added to the archive: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1042"/>
+        <source>Added: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1046"/>
+        <source>Already in the archive: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1056"/>
+        <source>Cancelled.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1060"/>
+        <source>Cancelled. Nothing was changed on disk.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1067"/>
+        <source>The operation failed because the rebuild recipe could not be kept:
+%1
+
+Try again without the recipe? The game still runs from the NX archive, but the original package cannot be rebuilt exactly from it.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/nx_tools.cpp" line="1081"/>
+        <source>The operation failed:
+%1</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>ShaderWarmDialog</name>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="45"/>
+        <source>Tip for NVIDIA GPUs: the compiled shaders are kept in the driver&apos;s shader cache. In the NVIDIA Control Panel, Manage 3D settings, set Shader Cache Size to 10 GB or Unlimited; a full cache throws them away and the warm-up has to run again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="56"/>
+        <source>Reading game files</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="59"/>
+        <source>Extracting shaders</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="62"/>
+        <source>Converting shaders</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="65"/>
+        <source>Writing warm-up files</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="186"/>
+        <source>Stopping</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="195"/>
+        <source>%1: %L2 / %L3</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="199"/>
+        <source>%1: %L2</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="214"/>
+        <source>Shader warm-up is ready.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="215"/>
+        <source>Compute programs: %L1
+Vertex programs: %L2
+Fragment programs: %L3</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="221"/>
+        <source>Skipped (could not be read or converted): %L1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="225"/>
+        <source>Next, start the game: the shaders are compiled for your GPU while the game is paused, or right away with Emulation &gt; Prepare Shaders Now (a title screen is a good place). It never slows the game down on its own, and it is done once per driver version.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="233"/>
+        <source>The graphics part also needs Shader libraries, in Configure, Graphics, Advanced.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="240"/>
+        <source>Shader warm-up stopped.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="242"/>
+        <source>Shader warm-up could not be built.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="243"/>
+        <source>No details were given.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/shader_warm_dialog.cpp" line="248"/>
+        <source>Close</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>Updater</name>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="549"/>
+        <source>An update was interrupted, so the version it was replacing has been put back.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="557"/>
+        <source>Interrupted Update</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="558"/>
+        <source>An update was interrupted and could not be undone (%1). Close every AghathNX window and start AghathNX again. If it keeps failing, download the release again and unzip it over your AghathNX folder; your user data is not affected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="582"/>
+        <source>Roll Back</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="586"/>
+        <source>AghathNX can&apos;t write to its folder (%1).</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="592"/>
+        <source>Go back to %1? AghathNX will restart. Your settings, saves and keys are not changed, and you can switch back to this version the same way.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="605"/>
+        <source>Another AghathNX window is already updating this folder.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="615"/>
+        <source>%1 is back. Help &gt; Roll Back to the Previous Version switches to the newer version again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="624"/>
+        <source>Could not roll back (%1). AghathNX was not changed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="631"/>
+        <source>Rolling back failed (%1) and some files could not be put back. Close AghathNX and start it again to restore this version.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="647"/>
+        <source>Failed to restart</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="648"/>
+        <source>Please start AghathNX again yourself.</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>IconSearch</name>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="558"/>
+        <source>Find Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="559"/>
+        <source>Please enter a game name first so the icon can be found.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="581"/>
+        <source>Choose an Icon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="584"/>
+        <source>SteamGridDB has several icons for this game. Pick one:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="618"/>
+        <source>No matching icon was found on switchiconshowdown.com. A SteamGridDB API key enables a fallback search.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="620"/>
+        <source>SteamGridDB rejected the saved API key.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="623"/>
+        <source>Create a free key on the &lt;a href=&quot;%1&quot;&gt;SteamGridDB API preferences&lt;/a&gt; page.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="627"/>
+        <source>SteamGridDB API Key</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="636"/>
+        <source>API key</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="683"/>
+        <source>No matching icon was found on switchiconshowdown.com or SteamGridDB. Try a different game name or choose an icon file.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="693"/>
+        <source>Searching for an icon took longer than %1 seconds and was stopped. Check your connection and try again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="698"/>
+        <source>Could not reach the icon sources (%1). Check your connection and try again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/util/icon_search.cpp" line="704"/>
+        <source>Searching for an icon failed unexpectedly: %1</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>GameListWorker</name>
+    <message>
+        <location filename="../../src/qt_common/game_list/worker.cpp" line="500"/>
+        <source>Not scanned</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/worker.cpp" line="502"/>
+        <source>Folder size is not calculated during game discovery.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

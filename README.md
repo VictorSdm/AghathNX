@@ -15,6 +15,8 @@
 
 O AghathNX é um emulador experimental e de código aberto de **Nintendo Switch** e **Switch 2**, escrito em C++. Ele é um fork do **[Fritchii](https://github.com/Frizti/Fritchii) v5.8.4**, de Frizti, que por sua vez vem do Lichii, do Eglantine, do Eden e do yuzu. Por isso ele traz tudo o que o Fritchii v5.8.4 já fazia, como o desempenho e as correções visuais de Zelda: Ocarina of Time, o DLSS por jogo e a janela de Saves.
 
+A interface está disponível em 27 idiomas e abre no idioma do Windows, com tradução completa para o português do Brasil. Veja [como ajudar a traduzir](docs/aghathnx/TRADUCAO.md).
+
 Este é um projeto independente. Ele não é afiliado à Nintendo nem é uma versão oficial dos projetos de origem.
 
 ## Download e uso

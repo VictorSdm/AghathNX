@@ -65,6 +65,7 @@ jobs:
           target: desktop
           arch: win64_msvc2022_64
           modules: qtcharts
+          # lrelease (Qt Linguist tools) compiles dist/languages/*.ts into the app.
           cache: true
 
       - name: Install sccache
@@ -116,6 +117,7 @@ jobs:
           -DYUZU_USE_BUNDLED_QT=OFF
           -DYUZU_USE_BUNDLED_SDL3=ON
           -DENABLE_UPDATE_CHECKER=OFF
+          -DENABLE_QT_TRANSLATION=ON
           -DUSE_DISCORD_PRESENCE=OFF
           -DCMAKE_C_COMPILER_LAUNCHER=sccache
           -DCMAKE_CXX_COMPILER_LAUNCHER=sccache
@@ -151,7 +153,13 @@ jobs:
           foreach ($exe in 'aghathnx.exe', 'eden-cli.exe') {
             if (-not (Test-Path "$bin/$exe")) { throw "$bin/$exe was not produced" }
           }
-          windeployqt --release --no-translations "$bin/aghathnx.exe"
+          # Qt's own translations (standard dialogs) go along; the Visual C++ runtime DLLs are
+          # copied next to aghathnx.exe so nobody has to install vc_redist first.
+          windeployqt --release --no-compiler-runtime "$bin/aghathnx.exe"
+          $crt = Get-ChildItem -Directory (Join-Path $env:VCToolsRedistDir 'x64') -Filter 'Microsoft.VC*.CRT' | Select-Object -First 1
+          if (-not $crt) { throw "Visual C++ runtime not found in $env:VCToolsRedistDir" }
+          Copy-Item (Join-Path $crt.FullName '*.dll') $bin
+          Get-ChildItem $bin -Filter 'vc_redist*.exe' | Remove-Item
           $folder = "AghathNX-v$version"
           New-Item -ItemType Directory $folder | Out-Null
           Copy-Item -Recurse "$bin/*" $folder -Exclude '*.pdb','*.ilk','*.lib','*.exp'

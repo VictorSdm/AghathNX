@@ -467,7 +467,7 @@ std::optional<ProfileImportChoice> UserDataMigrator::AskImport(QWidget* parent, 
     QFont big = dialog.font();
     big.setPointSizeF(big.pointSizeF() * 1.15);
     auto* text = new QLabel(
-        from_menu ? QObject::tr("Copy your data from another folder?\nFritchii restarts and "
+        from_menu ? QObject::tr("Copy your data from another folder?\nAghathNX restarts and "
                                 "copies it over its own. What it has now is kept as a backup.")
                   : QObject::tr("AghathNX keeps its data in its own folder now.\nCopy your data "
                                 "from another emulator folder?"),
@@ -656,7 +656,7 @@ void UserDataMigrator::AutoImport(QMainWindow* main_window,
                                                        : QStringLiteral("nand and sdmc"));
         }
         if (requested) {
-            text += QObject::tr("\n\nFritchii's previous data is kept next to it, in the folders "
+            text += QObject::tr("\n\nAghathNX's previous data is kept next to it, in the folders "
                                 "ending in \".backup\".");
         }
         text += QObject::tr("\n\nShaders get prepared again the first time you start a game.\n"

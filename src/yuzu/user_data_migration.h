@@ -31,7 +31,7 @@ public:
 
     /// Fritchii's copy dialog: which old folder and what to copy. Nullopt when the player
     /// declines (Start fresh on the first launch, Cancel from the Help menu) or none exists.
-    /// `from_menu`: Help > Copy Data (the current data is kept as backups, Fritchii restarts).
+    /// `from_menu`: Help > Copy Data (the current data is kept as backups, AghathNX restarts).
     [[nodiscard]] static std::optional<ProfileImportChoice> AskImport(QWidget* parent,
                                                                       bool from_menu);
 
